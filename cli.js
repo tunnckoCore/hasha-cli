@@ -9,7 +9,7 @@
 'use strict'
 
 var meow = require('meow')
-var hasha = require('hasha')
+var hasha = require('./index')
 
 var cli = meow({
   help: [
