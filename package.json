@@ -1,0 +1,24 @@
+{
+  "name": "hasha-cli",
+  "version": "0.0.0",
+  "description": "Hashing made simple. CLI for `hasha` module. You can use also as API for `hasha`.",
+  "repository": "tunnckoCore/hasha-cli",
+  "author": "Charlike Mike Reagent <@tunnckoCore> (http://www.tunnckocore.tk)",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "standard && node test.js"
+  },
+  "dependencies": {
+    "hasha": "^1.0.1",
+    "meow": "^3.3.0"
+  },
+  "devDependencies": {
+    "assertit": "^0.1.0",
+    "async-exec-cmd": "^2.0.2"
+  },
+  "keywords": [],
+  "bin": {
+    "hasha": "cli.js"
+  }
+}
