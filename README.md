@@ -1,8 +1,8 @@
 # [hasha-cli][author-www-url] [![npmjs.com][npmjs-img]][npmjs-url] [![The MIT License][license-img]][license-url] 
 
-> Hashing made simple. CLI for `hasha` module. You can use also as API for `hasha`.
+> Hashing made simple. CLI for [hasha](https://github.com/sindresorhus/hasha) module. You also can use it as `hasha`.
 
-[![code climate][codeclimate-img]][codeclimate-url] [![standard code style][standard-img]][standard-url] [![travis build status][travis-img]][travis-url] [![coverage status][coveralls-img]][coveralls-url] [![dependency status][david-img]][david-url]
+[![code climate][codeclimate-img]][codeclimate-url] [![standard code style][standard-img]][standard-url] [![travis build status][travis-img]][travis-url] [![cov status][cov-img]][cov-url] [![dependency status][david-img]][david-url]
 
 
 ## Install
@@ -11,9 +11,19 @@ npm i hasha-cli --save
 npm test
 ```
 
+## API
+> For more use-cases see the [tests](./test.js). You also can use it as `hasha`.
+
+```js
+var hashaCli = require('hasha-cli')
+
+hashaCli('unicorn')
+//=> 'e233b19aabc7d5e53826fb734d1222f1f0444c3a3fc67ff4af370a66e7cadd2cb24009f1bc86f0bed12ca5fcb226145ad10fc5f650f6ef0959f8aadc5a594b27'
+```
+
 
 ## CLI
-> just run `npm i -g hasha-cli` to install it globally.
+> Just run `npm i -g hasha-cli` to install it globally.
 
 ```
 $ hasha --help
@@ -30,17 +40,6 @@ $ hasha --help
     --algorithm  Cipher algorithm: md5,sha1,sha256,sha512   Default: sha512s
     --encoding   Output encoding: hex,base64,buffer,binary  Default: hex
 
-```
-
-
-## API
-> For more use-cases see the [tests](./test.js). You can use it also as `hasha`.
-
-```js
-var hashaCli = require('hasha-cli')
-
-hashaCli('unicorn')
-//=> 'e233b19aabc7d5e53826fb734d1222f1f0444c3a3fc67ff4af370a66e7cadd2cb24009f1bc86f0bed12ca5fcb226145ad10fc5f650f6ef0959f8aadc5a594b27'
 ```
 
 
@@ -72,6 +71,9 @@ But before doing anything, please read the [CONTRIBUTING.md](./CONTRIBUTING.md) 
 
 [travis-url]: https://travis-ci.org/tunnckoCore/hasha-cli
 [travis-img]: https://img.shields.io/travis/tunnckoCore/hasha-cli.svg
+
+[cov-url]: https://codeclimate.com/github/tunnckoCore/hasha-cli
+[cov-img]: https://img.shields.io/codeclimate/coverage/github/tunnckoCore/hasha-cli.svg
 
 [coveralls-url]: https://coveralls.io/r/tunnckoCore/hasha-cli
 [coveralls-img]: https://img.shields.io/coveralls/tunnckoCore/hasha-cli.svg
