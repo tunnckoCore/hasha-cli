@@ -2,7 +2,7 @@
 /*!
  * hasha-cli <https://github.com/tunnckoCore/hasha-cli>
  *
- * Copyright (c) 2015 Charlike Mike Reagent <@tunnckoCore> (http://www.tunnckocore.tk)
+ * Copyright (c) 2015 Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
  * Released under the MIT license.
  */
 
