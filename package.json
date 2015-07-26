@@ -1,6 +1,6 @@
 {
   "name": "hasha-cli",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Hashing made simple. CLI for `hasha` module. You can use also as API for `hasha`.",
   "repository": "tunnckoCore/hasha-cli",
   "author": "Charlike Mike Reagent <@tunnckoCore> (http://www.tunnckocore.tk)",
