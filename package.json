@@ -17,7 +17,30 @@
     "assertit": "^0.1.0",
     "async-exec-cmd": "^2.0.2"
   },
-  "keywords": [],
+  "keywords": [
+    "cli-app",
+    "cli",
+    "hash",
+    "hashing",
+    "crypto",
+    "hex",
+    "base64",
+    "md5",
+    "sha1",
+    "sha256",
+    "sha512",
+    "sum",
+    "stream",
+    "file",
+    "fs",
+    "buffer",
+    "string",
+    "text",
+    "rev",
+    "revving",
+    "simple",
+    "easy"
+  ],
   "bin": {
     "hasha": "cli.js"
   }
